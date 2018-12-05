@@ -1,0 +1,159 @@
+/* html{
+    height: 100%;
+} */
+
+body{
+    margin: 0;
+}
+
+nav{
+    top: 0;
+    position: fixed;
+}
+
+.nav_bar {
+    overflow: hidden;
+    height: 55px ;
+    text-align: center;
+    /* word-spacing: 20px; */
+    background-color: #f9f9f9;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 3px;
+}
+
+.nav_wrapper{
+    padding-top: 15px;
+}
+
+a{
+    width: 100%;
+    height: 5.5px;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #666666;
+    text-decoration: none;
+    word-spacing: 20px;
+}
+
+.landing_page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url("../img/pexels3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* landing page styling ends here */
+/* About styling starts here */
+
+body{
+    margin: 0;
+}
+
+nav{
+    top: 0;
+    position: fixed;
+}
+
+.nav_bar {
+    overflow: hidden;
+    height: 55px ;
+    text-align: center;
+    word-spacing: 25px;
+    background-color: #f9f9f9;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 3px;
+}
+
+.nav_wrapper{
+    padding-top: 15px;
+}
+
+a{
+    width: 100%;
+    height: 5.5px;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #666666;
+    text-decoration: none;
+    /* word-spacing: 20px; */
+}
+
+.grid{
+    height: 100vh;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url("../img/pexels3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: auto auto; */
+    grid-gap: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    align-content: space-evenly;
+    /* height: 250px; */
+    /* width: 500px; */
+    padding-top: 15px;
+}
+
+.grid-container > div {
+    background-color: #f9f9f9;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-size: 30px;
+    height: 44vh;
+    color: #666666
+}
+  
+/* .information{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+img{
+    width: 50px;
+    height: 50px;       
+}
+
+.grid_container{
+    display: grid;
+    grid-template-rows: auto auto;
+
+} */
+
+.grid-container > div img {
+ height: 250px;
+ width: 250px;
+}
+
+/* About styling ends here */
+/* Education styling starts here */
