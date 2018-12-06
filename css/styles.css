@@ -157,3 +157,142 @@ img{
 
 /* About styling ends here */
 /* Education styling starts here */
+
+body{
+    margin: 0;
+}
+
+nav{
+    top: 0;
+    position: fixed;
+}
+
+.nav_bar {
+    overflow: hidden;
+    height: 55px ;
+    text-align: center;
+    word-spacing: 25px;
+    background-color: #f9f9f9;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 3px;
+}
+
+.nav_wrapper{
+    padding-top: 15px;
+}
+
+a{
+    width: 100%;
+    height: 5.5px;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #666666;
+    text-decoration: none;
+    /* word-spacing: 20px; */
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url("../img/pexels3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.education_info{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+    align-content: space-evenly;
+    /* height: 250px; */
+    /* width: 500px; */
+    padding-top: 15px;
+}
+
+.education_info > div {
+    background-color: #f9f9f9;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-size: 30px;
+    height: 44vh;
+    color: #666666
+}
+
+#item-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    height: 9vh;
+    width: 177vh;
+}
+
+#item-3 {
+    font-size: small;
+}
+
+
+/* Education styling ends here */
+/* Experience styling starts here */
+body{
+    margin: 0;
+}
+
+nav{
+    top: 0;
+    position: fixed;
+}
+
+.nav_bar {
+    overflow: hidden;
+    height: 55px ;
+    text-align: center;
+    word-spacing: 25px;
+    background-color: #f9f9f9;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 3px;
+}
+
+.nav_wrapper{
+    padding-top: 15px;
+}
+
+a{
+    width: 100%;
+    height: 5.5px;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #666666;
+    text-decoration: none;
+    /* word-spacing: 20px; */
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url("../img/pexels3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Experience styling ends here */
